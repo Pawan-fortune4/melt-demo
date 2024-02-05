@@ -8,10 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
+
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif'],
+      },
+      colors: {
+        lightGrey: '#f7f7f7',
+        grey: '#656060',
       },
     },
   },
